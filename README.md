@@ -31,39 +31,38 @@ To verify if Homebrew has been successfully installed or not check the current v
 ---
 
 ## <a name="adoptopenjdk">Insatlling AdoptOpenJDK using brew</a>
-Some can find installing **Java** very confusing like setting up the path and etc. Well, ***brew*** is here to rescue.
-So, to install the ***Java*** on your **OS X** just follow one of the options below.
+Some can find installing Java very confusing like setting up the path and etc. Well, brew is here to rescue. So, to install the Java on your OS X just follow one of the options below.
 
 ### Option 1. Install latest Java version from AdoptOpenJDK provider
-By running 2 commands below ***brew*** will download the ***latest version of Java*** from ***AdoptOpenJDK*** provider and will set the ***$JAVA_HOME*** path for you.  
+By running 2 commands below brew will download the latest version of Java from AdoptOpenJDK provider and will set the ***$JAVA_HOME*** path for you.  
    * **`$ brew tap AdoptOpenJDK`**  
    * **`$ brew cask install adoptopenjdk`**  
   
 
 ### Option 2. Install a specific Java version from AdoptOpenJDK provider
-By running 2 commands below ***brew*** will download the ***provided version of Java*** from ***AdoptOpenJDK*** provider and will set the ***$JAVA_HOME*** path for you.  
+By running 2 commands below brew will download the provided version of Java from AdoptOpenJDK provider and will set the ***$JAVA_HOME*** path for you.  
    * **`$ brew tap AdoptoOpenJDK`**  
    * **`$ brew cask install adoptopenjdk8/9/10/11`**  
    
-*note:* **`$ brew tap ...`** is optional if you have run this command before to ***tap*** a repository.  
+*note:* **`$ brew tap X`** is optional to install something from that repository ***X***. If you have run this command before to ***tap*** repository ***X***.  
 
 ---
 
 
 ## <a name="intellij-idea-ce">Insatlling Intellij Idea Community Edition using brew</a>
-To install the **Intellij Idead Community Edition** on your **OS X** just run the command below. ***Brew*** will download the latest version of **Intellij Idead Community Edition** and will place it in under ***Applications***.  
+To install the Intellij Idea Community Edition on your OS X just run the command below. Brew will download the latest version of Intellij Idead Community Edition and will place it in under Applications.  
 **`$ brew cask install intellij-idea-ce`**  
 
 ---
 
 ## <a name="google-chrome">Insatlling Google Chrome using brew</a>
-To install the **Google Chrome** on your **OS X** just run the command below. ***Brew*** will download the latest version of   **Google Chrome** and will place it in under ***Applications***.  
+To install the Google Chrome on your OS X just run the command below. Brew will download the latest version of Google Chrome and will place it in under Applications.  
 **`$ brew cask install google-chrome`**
 
 ---
 
 ## <a name="firefox">Insatlling Firefox using brew</a>
-To install the **Firefox** on your **OS X** just run the command below. ***Brew*** will download the latest version of **Firefox** and will place it in under ***Applications***.  
+To install the Firefox on your OS X just run the command below. Brew will download the latest version of Firefox and will place it in under Applications.  
 **`$ brew cask install firefox`**  
 
 ---
