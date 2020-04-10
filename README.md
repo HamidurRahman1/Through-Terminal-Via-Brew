@@ -23,26 +23,29 @@ To verify if Homebrew has been successfully installed or not check the current v
 <br>
 
 ## :mag: ***Brew*** commands for installing Libraries and Applications
-  * [install ***Java*** from ***OpenJDK*** provider via ***brew***](#openjdk)
+  * [install ***Java*** from ***AdoptOpenJDK*** provider via ***brew***](#adoptopenjdk)
   * [install ***Google Chrome*** via ***brew***](#google-chrome)
   * [install ***Firefox*** via ***brew***](#firefox)  
   
 ---
 
-## <a name="openjdk">Insatlling OpenJDK using brew</a>
+## <a name="adoptopenjdk">Insatlling AdoptOpenJDK using brew</a>
 Some can find installing Java very confusing like setting up the path and etc. Well, ***brew*** is here to rescue.
 So, to install the ***Java*** on your **OS X** just follow one of the options below.
 
-### Option 1. Install latest Java version from OpenJDK provider
-By running 2 commands below ***brew*** will download the ***latest version of Java*** from ***OpenJDK*** provider and will set the ***$JAVA_HOME*** path for you.  
-   * **`$ brew tap openjdk`**  
-   * **`$ brew cask install openjdk`**  
+### Option 1. Install latest Java version from AdoptOpenJDK provider
+By running 2 commands below ***brew*** will download the ***latest version of Java*** from ***AdoptOpenJDK*** provider and will set the ***$JAVA_HOME*** path for you.  
+   * **`$ brew tap AdoptOpenJDK`**  
+   * **`$ brew cask install adoptopenjdk`**  
   
 
-### Option 2. Install a specific Java version from OpenJDK provider
-By running 2 commands below ***brew*** will download the ***provided version of Java*** from ***OpenJDK*** provider and will set the ***$JAVA_HOME*** path for you.  
-   * **`$ brew tap openjdk`**  
-   * **`$ brew cask install openjdk<8>/<9>/<10>/<11>`**   
+### Option 2. Install a specific Java version from AdoptOpenJDK provider
+By running 2 commands below ***brew*** will download the ***provided version of Java*** from ***AdoptOpenJDK*** provider and will set the ***$JAVA_HOME*** path for you.  
+   * **`$ brew tap AdoptoOpenJDK`**  
+   * **`$ brew cask install adoptopenjdk8/9/10/11`**  
+   
+*note:* **`$ brew tap ...`** is optional if you have run this command before to ***tap*** a repository.
+
 ---
 
 ## <a name="google-chrome">Insatlling Google Chrome using brew</a>
