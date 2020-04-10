@@ -24,7 +24,10 @@ To verify if Homebrew has been successfully installed or not check the current v
 
 ## :mag: ***Brew*** commands for installing Libraries and Applications
   * [install ***Java*** from ***AdoptOpenJDK*** provider via ***brew***](#adoptopenjdk)
+  * [install ***Intellij Idea Ultimate Edition*** via ***brew***](#intellij-idea)
   * [install ***Intellij Idea Community Edition*** via ***brew***](#intellij-idea-ce)
+  * [install ***PyCharm Ultimate Edition*** via ***brew***](#pycharm)
+  * [install ***PyCharm Community Edition*** via ***brew***](#pycharm-ce)
   * [install ***Google Chrome*** via ***brew***](#google-chrome)
   * [install ***Firefox*** via ***brew***](#firefox)  
   
@@ -48,10 +51,27 @@ By running 2 commands below brew will download the provided version of Java from
 
 ---
 
+## <a name="intellij-idea">Insatlling Intellij Idea Ultimate Edition using brew</a>
+To install the Intellij Idea Ultimate Edition on your OS X just run the command below. Brew will download the latest version of Intellij Idea Ultimate Edition and will place it in under Applications.  
+**`$ brew cask install intellij-idea`**  
+
+---
 
 ## <a name="intellij-idea-ce">Insatlling Intellij Idea Community Edition using brew</a>
-To install the Intellij Idea Community Edition on your OS X just run the command below. Brew will download the latest version of Intellij Idead Community Edition and will place it in under Applications.  
+To install the Intellij Idea Community Edition on your OS X just run the command below. Brew will download the latest version of Intellij Idea Community Edition and will place it in under Applications.  
 **`$ brew cask install intellij-idea-ce`**  
+
+---
+
+## <a name="pycharm">Insatlling PyCharm Ultimate Edition using brew</a>
+To install the PyCharm Ultimate Edition on your OS X just run the command below. Brew will download the latest version of PyCharm Ultimate Edition and will place it in under Applications.  
+**`$ brew cask install pycharm`**  
+
+---
+
+## <a name="pycharm-ce">Insatlling PyCharm Community Edition using brew</a>
+To install the PyCharm Community Edition on your OS X just run the command below. Brew will download the latest version of Intellij Idea Community Edition and will place it in under Applications.  
+**`$ brew cask install pycharm-ce`**  
 
 ---
 
