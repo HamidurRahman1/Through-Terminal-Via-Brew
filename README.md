@@ -24,13 +24,14 @@ To verify if Homebrew has been successfully installed or not check the current v
 
 ## :mag: ***Brew*** commands for installing Libraries and Applications
   * [install ***Java*** from ***AdoptOpenJDK*** provider via ***brew***](#adoptopenjdk)
+  * [install ***Intellij Idea Community Edition*** via ***brew***](#intellij-idea-ce)
   * [install ***Google Chrome*** via ***brew***](#google-chrome)
   * [install ***Firefox*** via ***brew***](#firefox)  
   
 ---
 
 ## <a name="adoptopenjdk">Insatlling AdoptOpenJDK using brew</a>
-Some can find installing Java very confusing like setting up the path and etc. Well, ***brew*** is here to rescue.
+Some can find installing **Java** very confusing like setting up the path and etc. Well, ***brew*** is here to rescue.
 So, to install the ***Java*** on your **OS X** just follow one of the options below.
 
 ### Option 1. Install latest Java version from AdoptOpenJDK provider
@@ -44,19 +45,25 @@ By running 2 commands below ***brew*** will download the ***provided version of 
    * **`$ brew tap AdoptoOpenJDK`**  
    * **`$ brew cask install adoptopenjdk8/9/10/11`**  
    
-*note:* **`$ brew tap ...`** is optional if you have run this command before to ***tap*** a repository.
+*note:* **`$ brew tap ...`** is optional if you have run this command before to ***tap*** a repository.  
+
+---
+
+
+## <a name="intellij-idea-ce">Insatlling Intellij Idea Community Edition using brew</a>
+To install the **Intellij Idead Community Edition** on your **OS X** just run the command below. ***Brew*** will download the latest version of **Intellij Idead Community Edition** and will place it in under ***Applications***.  
+**`$ brew cask install intellij-idea-ce`**  
 
 ---
 
 ## <a name="google-chrome">Insatlling Google Chrome using brew</a>
-To install the Google Chrome on your **OS X** just run the command below. ***Brew*** will download the latest version of   Google Chrome and will place it in under ***Applications***.  
+To install the **Google Chrome** on your **OS X** just run the command below. ***Brew*** will download the latest version of   **Google Chrome** and will place it in under ***Applications***.  
 **`$ brew cask install google-chrome`**
 
 ---
 
 ## <a name="firefox">Insatlling Firefox using brew</a>
-To install the Firefox on your **OS X** just run the command below. ***Brew*** will download the latest version of Firefox  
-and will place it in under ***Applications***.  
+To install the **Firefox** on your **OS X** just run the command below. ***Brew*** will download the latest version of **Firefox** and will place it in under ***Applications***.  
 **`$ brew cask install firefox`**  
 
 ---
