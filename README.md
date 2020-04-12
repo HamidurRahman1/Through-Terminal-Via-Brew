@@ -22,8 +22,9 @@ To verify if Homebrew has been successfully installed or not check the current v
 
 <br>
 
-## :mag: ***Brew*** commands for installing Libraries and Applications
+## :mag: ***Brew*** commands to install Libraries and Applications
   * [install ***Java*** from ***AdoptOpenJDK*** provider via ***brew***](#adoptopenjdk)
+  * [install ***Anaconda*** via ***brew***](#anaconda)
   * [install ***Intellij Idea Ultimate Edition*** via ***brew***](#intellij-idea)
   * [install ***Intellij Idea Community Edition*** via ***brew***](#intellij-idea-ce)
   * [install ***PyCharm Ultimate Edition*** via ***brew***](#pycharm)
@@ -33,7 +34,7 @@ To verify if Homebrew has been successfully installed or not check the current v
   
 ---
 
-## <a name="adoptopenjdk">Insatlling AdoptOpenJDK using brew</a>
+## <a name="adoptopenjdk">Insatll AdoptOpenJDK using brew</a>
 Some can find installing Java very confusing like setting up the path and etc. Well, brew is here to rescue. So, to install the Java on your OS X just follow one of the options below.
 
 ### Option 1. Install latest Java version from AdoptOpenJDK provider
@@ -51,38 +52,44 @@ By running 2 commands below brew will download the provided version of Java from
 
 ---
 
-## <a name="intellij-idea">Insatlling Intellij Idea Ultimate Edition using brew</a>
-To install the Intellij Idea Ultimate Edition on your OS X just run the command below. Brew will download the latest version of Intellij Idea Ultimate Edition and will place it in under Applications.  
+## <a name="anaconda">Insatll Anaconda using brew</a>
+To install Anaconda on your OS X just run the command below. Brew will download the latest version of Intellij Idea Ultimate Edition and will place it in under Applications.  
+**`$ brew cask install anaconda`**  
+
+---
+
+## <a name="intellij-idea">Insatll Intellij Idea Ultimate Edition using brew</a>
+To install Intellij Idea Ultimate Edition on your OS X just run the command below. Brew will download the latest version of Intellij Idea Ultimate Edition and will place it in under Applications.  
 **`$ brew cask install intellij-idea`**  
 
 ---
 
-## <a name="intellij-idea-ce">Insatlling Intellij Idea Community Edition using brew</a>
-To install the Intellij Idea Community Edition on your OS X just run the command below. Brew will download the latest version of Intellij Idea Community Edition and will place it in under Applications.  
+## <a name="intellij-idea-ce">Insatll Intellij Idea Community Edition using brew</a>
+To install Intellij Idea Community Edition on your OS X just run the command below. Brew will download the latest version of Intellij Idea Community Edition and will place it in under Applications.  
 **`$ brew cask install intellij-idea-ce`**  
 
 ---
 
-## <a name="pycharm">Insatlling PyCharm Ultimate Edition using brew</a>
-To install the PyCharm Ultimate Edition on your OS X just run the command below. Brew will download the latest version of PyCharm Ultimate Edition and will place it in under Applications.  
+## <a name="pycharm">Insatll PyCharm Ultimate Edition using brew</a>
+To install PyCharm Ultimate Edition on your OS X just run the command below. Brew will download the latest version of PyCharm Ultimate Edition and will place it in under Applications.  
 **`$ brew cask install pycharm`**  
 
 ---
 
-## <a name="pycharm-ce">Insatlling PyCharm Community Edition using brew</a>
-To install the PyCharm Community Edition on your OS X just run the command below. Brew will download the latest version of Intellij Idea Community Edition and will place it in under Applications.  
+## <a name="pycharm-ce">Insatll PyCharm Community Edition using brew</a>
+To install PyCharm Community Edition on your OS X just run the command below. Brew will download the latest version of Intellij Idea Community Edition and will place it in under Applications.  
 **`$ brew cask install pycharm-ce`**  
 
 ---
 
-## <a name="google-chrome">Insatlling Google Chrome using brew</a>
-To install the Google Chrome on your OS X just run the command below. Brew will download the latest version of Google Chrome and will place it in under Applications.  
+## <a name="google-chrome">Insatll Google Chrome using brew</a>
+To install Google Chrome on your OS X just run the command below. Brew will download the latest version of Google Chrome and will place it in under Applications.  
 **`$ brew cask install google-chrome`**
 
 ---
 
-## <a name="firefox">Insatlling Firefox using brew</a>
-To install the Firefox on your OS X just run the command below. Brew will download the latest version of Firefox and will place it in under Applications.  
+## <a name="firefox">Insatll Firefox using brew</a>
+To install Firefox on your OS X just run the command below. Brew will download the latest version of Firefox and will place it in under Applications.  
 **`$ brew cask install firefox`**  
 
 ---
