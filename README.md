@@ -24,6 +24,7 @@ To verify if Homebrew has been successfully installed or not check the current v
 
 ## :mag: ***Brew*** commands to install Libraries and Applications
   * [install ***Java*** from ***AdoptOpenJDK*** provider via ***brew***](#adoptopenjdk)
+  * [install ***Python*** via ***brew***](#adoptopenjdk)
   * [install ***Anaconda*** via ***brew***](#anaconda)
   * [install ***Intellij Idea Ultimate Edition*** via ***brew***](#intellij-idea)
   * [install ***Intellij Idea Community Edition*** via ***brew***](#intellij-idea-ce)
@@ -49,6 +50,20 @@ By running 2 commands below brew will download the provided version of Java from
    * **`$ brew cask install adoptopenjdk8/9/10/11`**  
    
 *note:* **`$ brew tap X`** is optional to install something from that repository ***X***. If you have run this command before to ***tap*** repository ***X***.  
+
+---
+
+## <a name="python">Insatll Python using brew</a>
+To install the Python on your OS X just follow one of the options below.
+
+### Option 1. Install latest Python version
+By running the command below brew will download the latest version of Python for you.  
+   * **`$ brew install python`**  
+  
+
+### Option 2. Install a specific Python version
+By running the command below brew will download the provided version of Python for you.  
+   * **`$ brew install python2/3`**  
 
 ---
 
