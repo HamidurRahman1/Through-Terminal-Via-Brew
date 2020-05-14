@@ -26,10 +26,12 @@ To verify if Homebrew has been successfully installed or not check the current v
   * [install ***Java*** from ***AdoptOpenJDK*** provider via ***brew***](#adoptopenjdk)
   * [install ***Python*** via ***brew***](#adoptopenjdk)
   * [install ***Anaconda*** via ***brew***](#anaconda)
+    
   * [install ***Intellij Idea Ultimate Edition*** via ***brew***](#intellij-idea)
   * [install ***Intellij Idea Community Edition*** via ***brew***](#intellij-idea-ce)
   * [install ***PyCharm Ultimate Edition*** via ***brew***](#pycharm)
   * [install ***PyCharm Community Edition*** via ***brew***](#pycharm-ce)
+  * [install ***Atom*** via ***brew***](#atom)
   * [install ***Google Chrome*** via ***brew***](#google-chrome)
   * [install ***Firefox*** via ***brew***](#firefox)  
   
@@ -94,6 +96,12 @@ To install PyCharm Ultimate Edition on your OS X just run the command below. Bre
 ## <a name="pycharm-ce">Insatll PyCharm Community Edition using brew</a>
 To install PyCharm Community Edition on your OS X just run the command below. Brew will download the latest version of Intellij Idea Community Edition and will place it in under Applications.  
 **`$ brew cask install pycharm-ce`**  
+
+---
+
+## <a name="atom">Insatll Atom Editor using brew</a>
+To install Atom on your OS X just run the command below. Brew will download the latest version of Atom and will place it in under Applications.  
+**`$ brew cask install atom`**
 
 ---
 
