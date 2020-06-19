@@ -23,10 +23,10 @@ To verify if Homebrew has been successfully installed or not check the current v
 <br>
 
 ## :mag: ***Brew*** commands to install Libraries and Applications
+  * [install ***Google Chrome Driver*** from ***Chromium*** provider via ***brew***](#google-chrome-driver) 
   * [install ***Java*** from ***AdoptOpenJDK*** provider via ***brew***](#adoptopenjdk)
   * [install ***Python*** via ***brew***](#adoptopenjdk)
   * [install ***Anaconda*** via ***brew***](#anaconda)
-    
   * [install ***Intellij Idea Ultimate Edition*** via ***brew***](#intellij-idea)
   * [install ***Intellij Idea Community Edition*** via ***brew***](#intellij-idea-ce)
   * [install ***PyCharm Ultimate Edition*** via ***brew***](#pycharm)
@@ -35,6 +35,12 @@ To verify if Homebrew has been successfully installed or not check the current v
   * [install ***Google Chrome*** via ***brew***](#google-chrome)
   * [install ***Firefox*** via ***brew***](#firefox)  
   
+---
+
+## <a name="google-chrome-driver">Install Google Chrome Driver</a>
+To install Google Chrome Driver on your OS X just run the command below. Brew will download the latest version of Chrome Driver.  
+**`$ brew cask install chromedriver`**  
+
 ---
 
 ## <a name="adoptopenjdk">Insatll AdoptOpenJDK using brew</a>
