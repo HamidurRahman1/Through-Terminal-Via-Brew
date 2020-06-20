@@ -23,17 +23,17 @@ To verify if Homebrew has been successfully installed or not check the current v
 <br>
 
 ## :mag: ***Brew*** commands to install Libraries and Applications
-  * [install ***Google Chrome Driver*** from ***Chromium*** provider via ***brew***](#google-chrome-driver) 
-  * [install ***Java*** from ***AdoptOpenJDK*** provider via ***brew***](#adoptopenjdk)
-  * [install ***Python*** via ***brew***](#adoptopenjdk)
-  * [install ***Anaconda*** via ***brew***](#anaconda)
-  * [install ***Intellij Idea Ultimate Edition*** via ***brew***](#intellij-idea)
-  * [install ***Intellij Idea Community Edition*** via ***brew***](#intellij-idea-ce)
-  * [install ***PyCharm Ultimate Edition*** via ***brew***](#pycharm)
-  * [install ***PyCharm Community Edition*** via ***brew***](#pycharm-ce)
-  * [install ***Atom*** via ***brew***](#atom)
-  * [install ***Google Chrome*** via ***brew***](#google-chrome)
-  * [install ***Firefox*** via ***brew***](#firefox)  
+  * [***Google Chrome Driver***](#google-chrome-driver) 
+  * [***Java*** from ***AdoptOpenJDK*** provider](#adoptopenjdk)
+  * [***Python***](#adoptopenjdk)
+  * [***Anaconda***](#anaconda)
+  * [***Intellij Idea Ultimate Edition***](#intellij-idea)
+  * [***Intellij Idea Community Edition***](#intellij-idea-ce)
+  * [***PyCharm Ultimate Edition***](#pycharm)
+  * [***PyCharm Community Edition***](#pycharm-ce)
+  * [***Atom***](#atom)
+  * [***Google Chrome***](#google-chrome)
+  * [***Firefox***](#firefox)  
   
 ---
 
