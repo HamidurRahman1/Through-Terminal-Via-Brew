@@ -43,6 +43,12 @@ To install MongoDB Community Edition on your OS X just run the commands below. B
 **`$ brew tap mongodb/brew`**  
 **`$ brew install mongodb-community`**  
 
+### Start MongoDB service by running  
+**`$ brew services start mongodb-community`**  
+
+### Stop MongoDB service by running  
+**`$ brew services stop mongodb-community`**
+
 ---
 
 ## <a name="google-chrome-driver">Install Google Chrome Driver</a>
