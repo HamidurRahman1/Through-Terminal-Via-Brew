@@ -23,6 +23,7 @@ To verify if Homebrew has been successfully installed or not check the current v
 <br>
 
 ## :mag: ***Brew*** commands to install Libraries and Applications
+  * [***MongoDB Community Edition***](#mongodb-ce) 
   * [***Google Chrome Driver***](#google-chrome-driver) 
   * [***Java*** from ***AdoptOpenJDK*** provider](#adoptopenjdk)
   * [***Python***](#adoptopenjdk)
@@ -34,7 +35,14 @@ To verify if Homebrew has been successfully installed or not check the current v
   * [***Atom***](#atom)
   * [***Google Chrome***](#google-chrome)
   * [***Firefox***](#firefox)  
-  
+
+---
+
+## <a name="mongodb-ce">Install MongoDB Community Edition</a>
+To install MongoDB Community Edition on your OS X just run the commands below. Brew will download the latest version of MongoDB Community Edition.  
+**`$ brew tap mongodb/brew`**  
+**`$ brew install mongodb-community`**  
+
 ---
 
 ## <a name="google-chrome-driver">Install Google Chrome Driver</a>
