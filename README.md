@@ -23,6 +23,7 @@ To verify if Homebrew has been successfully installed or not check the current v
 <br>
 
 ## :mag: ***Brew*** commands to install Libraries and Applications
+  * [***Node***](#node) 
   * [***MongoDB Community Edition***](#mongodb-ce) 
   * [***Google Chrome Driver***](#google-chrome-driver) 
   * [***Java*** from ***AdoptOpenJDK*** provider](#adoptopenjdk)
@@ -35,6 +36,12 @@ To verify if Homebrew has been successfully installed or not check the current v
   * [***Atom***](#atom)
   * [***Google Chrome***](#google-chrome)
   * [***Firefox***](#firefox)  
+
+---
+
+## <a name="node">Install NodeJS and NPM</a>
+To install NodeJS and NPM on your OS X just run the command below. Brew will download the latest version of NodeJS and NPM.   
+**`$ brew install node`**
 
 ---
 
