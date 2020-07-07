@@ -23,6 +23,7 @@ To verify if Homebrew has been successfully installed or not check the current v
 <br>
 
 ## :mag: ***Brew*** commands to install Libraries and Applications
+  * [***Jenkins***](#jenkins) 
   * [***Node***](#node) 
   * [***MongoDB Community Edition***](#mongodb-ce) 
   * [***Google Chrome Driver***](#google-chrome-driver) 
@@ -36,6 +37,22 @@ To verify if Homebrew has been successfully installed or not check the current v
   * [***Atom***](#atom)
   * [***Google Chrome***](#google-chrome)
   * [***Firefox***](#firefox)  
+
+---
+
+## <a name="jenkins">Install Jenkins</a>
+To install Jenkins on your OS X just run the commands below. Brew will download the latest version of Jenkins.  
+**`$ brew install jenkins-lts`**  
+
+By default Jenkins create an administrator and generate a password. The password can be found by running  
+**`$ cat /Users/{username}/.jenkins/secrets/initialAdminPassword`**  
+
+### Start Jenkins service by running  
+**`$ brew services start jenkins-lts`**  
+Jenkins will be using port 8080 so we can check if it's running by going to http://localhost:8080/
+
+### Stop Jenkins service by running  
+**`$ brew services stop jenkins-lts`**
 
 ---
 
