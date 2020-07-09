@@ -24,6 +24,7 @@ To verify if Homebrew has been successfully installed or not check the current v
 
 ## :mag: ***Brew*** commands to install Libraries and Applications
   * [***Jenkins***](#jenkins) 
+  * [***Maven***](#maven) 
   * [***Node***](#node) 
   * [***MongoDB Community Edition***](#mongodb-ce) 
   * [***Google Chrome Driver***](#google-chrome-driver) 
@@ -53,6 +54,15 @@ Jenkins will be using port 8080 so we can check if it's running by going to http
 
 ### Stop Jenkins service by running  
 **`$ brew services stop jenkins-lts`**
+
+---
+
+## <a name="maven">Install Maven</a>
+To install Maven on your OS X just run the commands below. Brew will download the latest version of Maven.  
+**`$ brew install maven`**  
+
+### Verify maven is installed by running  
+**`$ mvn -v`**
 
 ---
 
