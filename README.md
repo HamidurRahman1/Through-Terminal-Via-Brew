@@ -53,7 +53,7 @@ By default Jenkins create an administrator and generate a password. The password
 Jenkins will be using port 8080 so we can check if it's running by going to http://localhost:8080/
 
 ### Stop Jenkins service by running  
-**`$ brew services stop jenkins-lts`**
+**`$ brew services stop jenkins-lts`**  
 
 ---
 
@@ -68,7 +68,13 @@ To install Maven on your OS X just run the commands below. Brew will download th
 
 ## <a name="node">Install NodeJS and NPM</a>
 To install NodeJS and NPM on your OS X just run the command below. Brew will download the latest version of NodeJS and NPM.   
-**`$ brew install node`**
+**`$ brew install node`**  
+
+### Verify NodeJS is installed by running  
+**`$ node -v`**  
+
+### Verify NPM is installed by running  
+**`$ npm -v`**
 
 ---
 
@@ -105,6 +111,9 @@ By running 2 commands below brew will download the provided version of Java from
    * **`$ brew tap AdoptoOpenJDK`**  
    * **`$ brew cask install adoptopenjdk8/9/10/11`**  
    
+### Verify Java is installed by running  
+**`$ java --version`**   
+   
 *note:* **`$ brew tap X`** is optional to install something from that repository ***X***. If you have run this command before to ***tap*** repository ***X***.  
 
 ---
@@ -120,12 +129,21 @@ By running the command below brew will download the latest version of Python for
 ### Option 2. Install a specific Python version
 By running the command below brew will download the provided version of Python for you.  
    * **`$ brew install python2/3`**  
+   
+### Verify Python is installed by running  
+**`$ python3 --version`**  
+or  
+**`$ pythonX --version`**  
+Where **X** is 2/3 or future released version number
 
 ---
 
 ## <a name="anaconda">Insatll Anaconda using brew</a>
 To install Anaconda on your OS X just run the command below. Brew will download the latest version of Intellij Idea Ultimate Edition and will place it in under Applications.  
 **`$ brew cask install anaconda`**  
+
+### Verify Anaconda is installed by running  
+**`$ conda --version`** 
 
 ---
 
