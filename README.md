@@ -87,13 +87,10 @@ To install MongoDB Community Edition on your OS X just run the commands below. B
 **`$ brew services start mongodb-community`**  
 
 ### Stop MongoDB service by running  
-**`$ brew services stop mongodb-community`**
+**`$ brew services stop mongodb-community`**  
 
----
-
-## <a name="google-chrome-driver">Install Google Chrome Driver</a>
-To install Google Chrome Driver on your OS X just run the command below. Brew will download the latest version of Chrome Driver.  
-**`$ brew cask install chromedriver`**  
+### Verify MongoDB is installed by running  
+**`$ mongod --version`**
 
 ---
 
@@ -144,6 +141,12 @@ To install Anaconda on your OS X just run the command below. Brew will download 
 
 ### Verify Anaconda is installed by running  
 **`$ conda --version`** 
+
+---
+
+## <a name="google-chrome-driver">Install Google Chrome Driver</a>
+To install Google Chrome Driver on your OS X just run the command below. Brew will download the latest version of Chrome Driver.  
+**`$ brew cask install chromedriver`**  
 
 ---
 
