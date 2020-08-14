@@ -148,6 +148,9 @@ To install Anaconda on your OS X just run the command below. Brew will download 
 To install Google Chrome Driver on your OS X just run the command below. Brew will download the latest version of Chrome Driver.  
 **`$ brew cask install chromedriver`**  
 
+### Verify ChromeDriver is installed by running  
+**`$ chromedriver --version`**
+
 ---
 
 ## <a name="intellij-idea">Insatll Intellij Idea Ultimate Edition using brew</a>
