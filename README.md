@@ -26,6 +26,7 @@ To verify if Homebrew has been successfully installed or not check the current v
   * [***Jenkins***](#jenkins) 
   * [***Maven***](#maven) 
   * [***Node***](#node) 
+  * [***MySQL***](#mysql) 
   * [***MongoDB Community Edition***](#mongodb-ce) 
   * [***Google Chrome Driver***](#google-chrome-driver) 
   * [***Java*** from ***AdoptOpenJDK*** provider](#adoptopenjdk)
@@ -75,6 +76,15 @@ To install NodeJS and NPM on your OS X just run the command below. Brew will dow
 
 ### Verify NPM is installed by running  
 **`$ npm -v`**
+
+---
+
+## <a name="mysql">Install MySQL </a>
+To install MySQL on your OS X just run the command below. Brew will download the latest version of MySQL.   
+**`$ brew install mysql`**  
+
+### Verify MySQL is installed by running  
+**`$ mysql --version`**  
 
 ---
 
