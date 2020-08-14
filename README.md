@@ -83,8 +83,20 @@ To install NodeJS and NPM on your OS X just run the command below. Brew will dow
 To install MySQL on your OS X just run the command below. Brew will download the latest version of MySQL.   
 **`$ brew install mysql`**  
 
+### Secure and set root account's password by running   
+**`$ mysql_secure_installation`**  
+
+### Start MySQL service by running  
+**`$ brew services start mysql`**  
+
+### Stop MySQL service by running  
+**`$ brew services stop mysql`**  
+
 ### Verify MySQL is installed by running  
 **`$ mysql --version`**  
+
+### Login to MySQL via terminal by running
+**`$ mysql -u root -p`**  
 
 ---
 
